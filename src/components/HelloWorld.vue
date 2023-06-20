@@ -65,11 +65,31 @@
             Community
           </v-btn>
         </v-col>
+
+        <v-col cols="12">
+          <router-link to="/api-tester">
+            <v-btn
+              color="primary"
+              
+              min-width="228"
+              rel="noopener noreferrer"
+              size="x-large"
+              variant="flat"
+            >
+              <v-icon 
+                icon="mdi-application-braces"
+                size="large"
+                start
+              />
+              API Tester
+            </v-btn>
+          </router-link>
+        </v-col>
       </v-row>
     </v-responsive>
   </v-container>
 </template>
 
 <script lang="ts" setup>
-  //
+  
 </script>
